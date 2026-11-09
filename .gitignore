@@ -1,0 +1,44 @@
+# ===== 构建产物 =====
+firmware/**/build/
+firmware/build/
+output/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.axf
+*.lst
+*.map
+*.crf
+*.dep
+*.lnp
+
+# ===== Keil =====
+*.uvguix.*
+DebugConfig/
+RTE/
+Listings/
+Objects/
+
+# ===== EIDE / VSCode =====
+.eide/
+.vscode/
+*.code-workspace
+
+# ===== CubeMX / STM32 =====
+*.mxproject
+
+# ===== 硬件设计临时文件 =====
+hardware/**/*-backups/
+hardware/**/.#*
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
